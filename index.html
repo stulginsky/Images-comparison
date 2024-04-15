@@ -11,6 +11,21 @@
   </head>
 
   <body>
-    <script src="index-script.js"></script>
+    <div id="contenedor">
+      <figure>
+        <div id="separador"></div>
+      </figure>
+      <input
+        oninput="beforeAfter()"
+        onchange="beforeAfter()"
+        type="range"
+        min="0"
+        max="100"
+        value="50"
+        id="deslizador"
+      />
+    </div>
+
+    <script src="js/index-script.js"></script>
   </body>
 </html>
